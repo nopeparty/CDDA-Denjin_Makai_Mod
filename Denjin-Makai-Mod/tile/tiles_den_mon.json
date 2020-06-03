@@ -1,0 +1,30 @@
+{
+  "type": "mod_tileset",
+  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "MX+(Overhaul)", "MshockXottoplus12" ],
+  "tile_info": [
+    {
+      "height": 32,
+      "width": 32
+    }
+  ],
+  "tiles-new": [
+    {
+      "file": "tile/Denjin-makai.png",
+      "tiles": 
+      [
+        { "id": "mon_den_combatant",   "fg": 0},
+		{ "id": "mon_den_amazoness",   "fg": 3},
+		{
+          "id": "corpse_mon_den_combatant",
+          "fg": 1,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_den_amazoness",
+          "fg": 4,
+          "rotates": false
+        }
+      ]
+    }
+  ]
+}
