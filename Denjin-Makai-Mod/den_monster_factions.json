@@ -3,7 +3,7 @@
     "type": "MONSTER_FACTION",
     "name": "denjin",
     "friendly": [  ],
-    "neutral": [ "combatant", "madness_grunt", "human", "player", "small_animal", "fish" ],
+    "neutral": [ "combatant", "human", "player", "small_animal", "fish" ],
     "by_mood": [  ]
   },
   {
@@ -11,7 +11,7 @@
     "name": "combatant",
 	"base_faction": "denjin",
     "friendly": [  ],
-    "neutral": [ "madness_grunt", "human", "player", "small_animal", "fish" ],
+    "neutral": [ "human", "player", "small_animal", "fish" ],
     "by_mood": [  ]
   }
 ]
