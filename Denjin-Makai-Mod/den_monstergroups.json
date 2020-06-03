@@ -4,8 +4,9 @@
     "name" : "GROUP_ZOMBIE",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
-	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
       ],
     "replace_monster_group" : true,
     "new_monster_group_id" : "GROUP_ZOMBIE_MID",
@@ -16,7 +17,7 @@
     "type": "monstergroup",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
@@ -25,7 +26,7 @@
     "type": "monstergroup",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   },
@@ -34,7 +35,7 @@
     "type": "monstergroup",
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
@@ -43,7 +44,7 @@
     "type": "monstergroup",
     "default": "mon_zombie_scorched",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
@@ -52,7 +53,7 @@
     "name" : "GROUP_HOUSE", "_comment" : "+15% child",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
       
     ]
@@ -62,7 +63,7 @@
     "name" : "GROUP_CHURCH_ZOMBIE",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
       ]
   }
@@ -71,7 +72,7 @@
 		"name" : "GROUP_MANSION",
 		"default" : "mon_zombie",
 		"monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }]
   },
   {
@@ -79,7 +80,7 @@
     "name" : "GROUP_LAB",
     "default" : "mon_zombie_scientist",
     "monsters" : [
-	  { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
@@ -88,7 +89,7 @@
     "name" : "GROUP_ICE_LAB",
     "default" : "mon_zombie_scientist",
     "monsters" : [
-	  { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]}
   ,{
@@ -96,7 +97,7 @@
     "name" : "GROUP_CENTRAL_LAB",
     "default" : "mon_zombie_scientist",
     "monsters" : [
-	  { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
 	}
@@ -105,8 +106,9 @@
     "name" : "GROUP_VANILLA",
     "default" : "mon_zombie",
     "monsters" : [
-            { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
-			{ "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]}
+            { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
+			{ "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
+			{ "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
     ,{
@@ -114,7 +116,7 @@
     "name" : "GROUP_POLICE", "//" : "+30% cops",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -123,7 +125,7 @@
     "name" : "GROUP_PREPPER_HOUSE",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 450, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 450, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 450, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -132,7 +134,7 @@
     "name" : "GROUP_PHARM", "//" : "+15% fast",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -141,7 +143,7 @@
     "name" : "GROUP_ELECTRO", "//" : "+15% electric",
     "default" : "mon_zombie",
     "monsters" : [
-	  { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
@@ -150,7 +152,7 @@
     "name" : "GROUP_GROCERY", "//" : "+15% bommers",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -159,7 +161,7 @@
     "name" : "GROUP_MAYBE_MIL", "//" : "50% chance military zombie",
     "default" : "mon_null",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -168,7 +170,7 @@
     "name" : "GROUP_PUBLICWORKERS",
     "default" : "mon_zombie_electric",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -177,7 +179,7 @@
     "name" : "GROUP_MAYBE_ZOMBIE", "//" : "10% chance of a zombie",
     "default" : "mon_null",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -185,7 +187,7 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE_FAT_BASE",
     "default": "mon_zombie_fat",
-    "monsters": [ { "monster" : "mon_den_combatant", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
+    "monsters": [ { "monster" : "mon_den_fighter", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
                   { "monster" : "mon_den_amazoness", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]}	]
   }
   ,{
@@ -193,7 +195,7 @@
     "name" : "GROUP_ZOMBIE_FAT",
     "default" : "mon_zombie_gasbag",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 500, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 500, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 500, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -202,7 +204,7 @@
     "name" : "GROUP_ZOMBIE_GRAB",
     "default" : "mon_zombie_grappler",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
     }
@@ -212,7 +214,7 @@
     "default" : "mon_zombie_brute",
     "//" : "Brute upgrades",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
     }
@@ -252,8 +254,8 @@
     "default": "mon_null",
     "//": "School monster spawns.",
     "monsters": [
-	  { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
-              { "monster" : "mon_den_combatant", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+              { "monster" : "mon_den_fighter", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1] },
 			  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
 	}
@@ -262,7 +264,7 @@
     "name" : "GROUP_SMALL_STATION",
     "default" : "mon_zombie_technician",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -271,7 +273,7 @@
     "name" : "GROUP_LARGE_STATION",
     "default" : "mon_zombie_technician",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -280,8 +282,9 @@
     "name" : "GROUP_ZOMBIE_MID",
     "default" : "mon_zombie_tough",
     "monsters" : [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
-	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+	  { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
   ,{
@@ -289,8 +292,8 @@
       "name" : "GROUP_ZOMBIE_PRISON",
       "default" : "mon_zombie",
       "monsters" : [
-        { "monster" : "mon_den_combatant", "freq" : 250, "cost_multiplier" : 0, "pack_size": [1,1]},
-        { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
+        { "monster" : "mon_den_fighter", "freq" : 250, "cost_multiplier" : 0, "pack_size": [1,1]},
+        { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
 		{ "monster" : "mon_den_amazoness", "freq" : 250, "cost_multiplier" : 0, "pack_size": [1,1]}
       ]
   }
@@ -299,7 +302,7 @@
       "name" : "GROUP_ZOMBIE_COP",
       "default" : "mon_zombie_cop",
       "monsters" : [
-        { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+        { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 		{ "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
       ]
   }
@@ -308,7 +311,7 @@
     "type": "monstergroup",
     "default": "mon_zombie_child",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }
@@ -318,7 +321,7 @@
     "default": "mon_null",
     "//": "Hospital monster spawns. Same as GROUP_ZOMBIE, but without Z-dogs.",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -328,7 +331,7 @@
     "default": "mon_null",
     "//": "Steel mill monster spawns.",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -337,7 +340,7 @@
     "type": "monstergroup",
     "default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -346,7 +349,7 @@
     "name": "GROUP_ZOMBIE_SEXSHOP_A",
     "default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 300, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -354,7 +357,7 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE_SEXSHOP_B",
     "default": "mon_zombie",
-    "monsters": [ { "monster" : "mon_den_combatant", "freq" : 550, "cost_multiplier" : 0, "pack_size": [1,1]},
+    "monsters": [ { "monster" : "mon_den_fighter", "freq" : 550, "cost_multiplier" : 0, "pack_size": [1,1]},
                   { "monster" : "mon_den_amazoness", "freq" : 550, "cost_multiplier" : 0, "pack_size": [1,1]}	]
   },
   {
@@ -362,7 +365,7 @@
     "type": "monstergroup",
     "default": "mon_zombie_fireman",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },{
@@ -370,21 +373,21 @@
     "name": "DUMP_ZOMBIES",
     "default": "mon_zombie_crawler",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },{
     "name": "GROUP_PLAIN",
     "type": "monstergroup",
     "default": "mon_zombie",
-    "monsters": [ { "monster" : "mon_den_combatant", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
+    "monsters": [ { "monster" : "mon_den_fighter", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
                   { "monster" : "mon_den_amazoness", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]}	]
   },{
     "name": "GROUP_HOTEL_POOL",
     "type": "monstergroup",
     "default": "mon_zombie_swimmer",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },
@@ -393,7 +396,7 @@
     "type": "monstergroup",
     "default": "mon_zombie_fat",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 50, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   },{
@@ -401,7 +404,7 @@
     "type": "monstergroup",
     "default": "mon_zombie_swimmer",
     "monsters": [
-      { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
 	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]}
     ]
   }

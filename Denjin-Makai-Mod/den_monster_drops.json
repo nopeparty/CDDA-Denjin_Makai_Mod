@@ -2,7 +2,7 @@
   {
     "type": "item_group",
     "subtype": "collection",
-    "id": "default_Combatant_death_drops",
+    "id": "default_Fighter_death_drops",
     "entries": [ { "item": "tonfa", "prob": 50 },
 { "item": "tonfa", "prob": 50 },
 { "item": "knee_high_boots", "prob": 50 },
@@ -17,5 +17,13 @@
     "entries": [ 
 { "item": "knee_high_boots", "prob": 50 },
 { "item": "gloves_tactical", "prob": 50 } ]
-  }
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_combatant_death_drops",
+    "entries": [ 
+{ "item": "boots_combat", "prob": 50 },
+{ "item": "gloves_tactical", "prob": 45 } ]
+  },
 ]
