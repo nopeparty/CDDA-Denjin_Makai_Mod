@@ -12,16 +12,22 @@
       "file": "tile/Denjin-makai.png",
       "tiles": 
       [
-        { "id": "mon_den_combatant",   "fg": 0},
+        { "id": "mon_den_fighter",   "fg": 0},
 		{ "id": "mon_den_amazoness",   "fg": 3},
+		{ "id": "mon_den_combatant",   "fg": 5},
 		{
-          "id": "corpse_mon_den_combatant",
+          "id": "corpse_mon_den_fighter",
           "fg": 1,
           "rotates": false
         },
 		{
           "id": "corpse_mon_den_amazoness",
           "fg": 4,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_den_combatant",
+          "fg": 6,
           "rotates": false
         }
       ]
