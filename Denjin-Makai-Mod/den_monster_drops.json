@@ -25,5 +25,5 @@
     "entries": [ 
 { "item": "boots_combat", "prob": 50 },
 { "item": "gloves_tactical", "prob": 45 } ]
-  },
+  }
 ]
