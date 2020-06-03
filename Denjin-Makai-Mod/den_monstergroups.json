@@ -4,10 +4,10 @@
     "name" : "GROUP_ZOMBIE",
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
-	  { "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
-	  { "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
-	  { "monster" : "mon_den_infantry", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
+      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_infantry", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
       ],
     "replace_monster_group" : true,
     "new_monster_group_id" : "GROUP_ZOMBIE_MID",
@@ -107,10 +107,10 @@
     "name" : "GROUP_VANILLA",
     "default" : "mon_zombie",
     "monsters" : [
-            { "monster" : "mon_den_fighter", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
-			{ "monster" : "mon_den_amazoness", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1]},
-			{ "monster" : "mon_den_combatant", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] },
-			{ "monster" : "mon_den_infantry", "freq" : 200, "cost_multiplier" : 0, "pack_size": [1,1] }
+            { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+			{ "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
+			{ "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
+			{ "monster" : "mon_den_infantry", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
     ,{
@@ -284,10 +284,10 @@
     "name" : "GROUP_ZOMBIE_MID",
     "default" : "mon_zombie_tough",
     "monsters" : [
-      { "monster" : "mon_den_fighter", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
-	  { "monster" : "mon_den_amazoness", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1]},
-	  { "monster" : "mon_den_combatant", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] },
-	  { "monster" : "mon_den_infantry", "freq" : 150, "cost_multiplier" : 0, "pack_size": [1,1] }
+      { "monster" : "mon_den_fighter", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
+	  { "monster" : "mon_den_amazoness", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1]},
+	  { "monster" : "mon_den_combatant", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1] },
+	  { "monster" : "mon_den_infantry", "freq" : 100, "cost_multiplier" : 0, "pack_size": [1,1] }
     ]
   }
   ,{
