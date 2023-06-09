@@ -1,0 +1,9 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "default_Enemy13_death_drops",
+    "entries": [ { "item": "tonfa", "prob": 50 },
+{ "item": "tonfa", "prob": 50 } ]
+  }
+]
