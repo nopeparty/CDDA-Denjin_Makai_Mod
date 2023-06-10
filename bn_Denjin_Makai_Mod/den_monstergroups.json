@@ -2,12 +2,11 @@
  {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
-	"//": "Group of female combatants",
 	"is_animal": true,
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [5,5] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
     ]
   }
   ,{
@@ -16,7 +15,7 @@
 	"is_animal": true,
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] }
     ]
   }
   ,{
@@ -25,11 +24,11 @@
 	"is_animal": true,
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] },
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
     ]
   }
   ,{
@@ -38,7 +37,7 @@
 	"is_animal": true,
     "default": "mon_null",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] }
     ]
   }
   ,{
@@ -47,8 +46,8 @@
 	"is_animal": true,
     "default": "mon_null",
     "monsters":[
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,1] }
     ]
   }
   ,{
@@ -57,8 +56,8 @@
 	"is_animal": true,
     "default": "mon_zombie_scientist",
     "monsters": [ 
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] }
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
 	]
   }
   ,{
@@ -67,30 +66,28 @@
 	"is_animal": true,
     "default": "mon_zombie_scientist",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
 	]
   }  
    ,{
     "type":"monstergroup",
     "name" : "GROUP_VANILLA",
-	"//": "Group of female combatants",
 	"is_animal": true,
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
     ]
   }
   ,{
     "type":"monstergroup",
     "name" : "GROUP_ZOMBIE_MID",
-	"//": "Group of female combatants",
 	"is_animal": true,
     "default" : "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [4,8] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 5, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
     ]
   } 
 ]
