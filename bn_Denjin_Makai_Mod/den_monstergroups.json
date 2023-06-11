@@ -2,92 +2,83 @@
  {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
-	"is_animal": true,
-    "default": "mon_null",
+	"default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,1] }
     ]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_HOUSE",
-	"is_animal": true,
-    "default": "mon_null",
+	"default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] }
     ]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_HOSPITAL",
-	"is_animal": true,
-    "default": "mon_null",
+	"default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,3] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,3] }
     ]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_CHURCH_ZOMBIE",
-	"is_animal": true,
-    "default": "mon_null",
+	"default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] }
     ]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_MANSION",
-	"is_animal": true,
-    "default": "mon_null",
+	"default": "mon_zombie",
     "monsters":[
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,2] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,1] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,3] }
     ]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_LAB",
-	"is_animal": true,
-    "default": "mon_zombie_scientist",
+	"default": "mon_zombie",
     "monsters": [ 
-	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] }
+	  { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [1,3] }
 	]
   }
   ,{
     "type": "monstergroup",
     "name": "GROUP_ICE_LAB",
-	"is_animal": true,
-    "default": "mon_zombie_scientist",
+	"default": "mon_zombie",
     "monsters": [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,4] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [1,3] }
 	]
   }  
-   ,{
+  ,{
     "type":"monstergroup",
     "name" : "GROUP_VANILLA",
-	"is_animal": true,
-    "default" : "mon_zombie",
+	"default": "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,2] }
     ]
   }
   ,{
     "type":"monstergroup",
     "name" : "GROUP_ZOMBIE_MID",
-	"is_animal": true,
-    "default" : "mon_zombie",
+	"default": "mon_zombie",
     "monsters" : [
-      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [4,5] },
-	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,4] }
+      { "monster" : "mon_den_enemy13", "freq" : 100, "cost_multiplier" : 2, "pack_size": [5,5] },
+	  { "monster" : "mon_den_enemy04", "freq" : 100, "cost_multiplier" : 2, "pack_size": [2,2] }
     ]
   } 
 ]
