@@ -40,7 +40,6 @@
       "HEARS",
       "SMELLS",
       "WARM",
-      "BASHES",
 	  "CAN_OPEN_DOORS",
 	  "GROUP_MORALE",
 	  "CLIMBS",
@@ -48,7 +47,6 @@
       "BLEED", 
       "PUSH_MON",
       "PATH_AVOID_DANGER_1",
-      "PRIORITIZE_TARGETS"
     ]
   }
   ,{
@@ -98,7 +96,6 @@
       "BLEED", 
       "PUSH_MON",
       "PATH_AVOID_DANGER_1",
-      "PRIORITIZE_TARGETS"
     ]
   }  
 ]
