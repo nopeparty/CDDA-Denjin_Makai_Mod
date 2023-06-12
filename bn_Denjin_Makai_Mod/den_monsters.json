@@ -46,7 +46,7 @@
       "HUMAN",
       "BLEED", 
       "PUSH_MON",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER_1"
     ]
   }
   ,{
@@ -95,7 +95,7 @@
       "CLIMBS",
       "BLEED", 
       "PUSH_MON",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER_1"
     ]
   }  
 ]
