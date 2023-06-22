@@ -16,13 +16,17 @@
   ],
   "tile_info": [
     {
-      "height": 32,
-      "width": 32
+      "height": 48,
+      "width": 48
     }
   ],
   "tiles-new": [
     {
-      "file": "tile/Denjin_makai.png",
+      "file": "tile/denjin_big.png",
+	  "sprite_width":48,
+   	  "sprite_height":48,
+	  "sprite_offset_x":-8,
+	  "sprite_offset_y":-16,
       "tiles": 
       [				
 		{ "id": "mon_den_enemy13",
@@ -34,25 +38,7 @@
         { "id": "corpse_mon_den_enemy13",   
 		  "fg": [
 		    { "weight": 1, "sprite": 3 } ],
-		      "rotates": false,		
-              "sprite_width": 32,
-              "sprite_height": 32,
-              "sprite_offset_x": 0,
-              "sprite_offset_y": 0
-		},
-		
-		{ "id": "mon_den_enemy04",
-          "fg": [
-		    { "weight": 1, "sprite": 5 }
-		] },	
-        { "id": "corpse_mon_den_enemy04",   
-		  "fg": [
-		    { "weight": 1, "sprite": 6 } ],
-		      "rotates": false,		
-              "sprite_width": 32,
-              "sprite_height": 32,
-              "sprite_offset_x": 0,
-              "sprite_offset_y": 0
+		      "rotates": false
 		}
       ]		
     }
