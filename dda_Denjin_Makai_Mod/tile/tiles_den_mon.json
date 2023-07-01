@@ -16,13 +16,17 @@
   ],
   "tile_info": [
     {
-      "height": 32,
-      "width": 32
+      "height": 48,
+      "width": 48
     }
   ],
   "tiles-new": [
     {
-      "file": "tile/Denjin_makai.png",
+      "file": "tile/denjin_big.png",
+	  "sprite_width":48,
+   	  "sprite_height":48,
+	  "sprite_offset_x":-8,
+	  "sprite_offset_y":-16,
       "tiles": 
       [				
 		{ "id": "mon_den_enemy13",
