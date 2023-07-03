@@ -38,7 +38,25 @@
         { "id": "corpse_mon_den_enemy13",   
 		  "fg": [
 		    { "weight": 1, "sprite": 3 } ],
-		      "rotates": false
+		      "rotates": false,		
+              "sprite_width": 32,
+              "sprite_height": 32,
+              "sprite_offset_x": 0,
+              "sprite_offset_y": 0
+		},
+		
+		{ "id": "mon_den_enemy04",
+          "fg": [
+		    { "weight": 1, "sprite": 5 }
+		] },	
+        { "id": "corpse_mon_den_enemy04",   
+		  "fg": [
+		    { "weight": 1, "sprite": 6 } ],
+		      "rotates": false,		
+              "sprite_width": 32,
+              "sprite_height": 32,
+              "sprite_offset_x": 0,
+              "sprite_offset_y": 0
 		}
       ]		
     }
